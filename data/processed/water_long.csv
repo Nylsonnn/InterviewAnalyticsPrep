@@ -1,0 +1,887 @@
+property_id,retailer,occupancy_status,business_type,resource zone,year_col,consumption,year
+1,Retailer A,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ01,consumption 2024,53.35,2024
+2,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2024,37.51,2024
+4,Retailer A,Occupied,Parent Shell - Property Shell,RZ02,consumption 2024,420.63,2024
+7,Retailer B,Vacant,Commercial - Retail,RZ04,consumption 2024,130.02,2024
+9,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2024,36.45,2024
+10,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2024,128.94,2024
+11,Retailer D,Occupied,,RZ03,consumption 2024,115.77,2024
+12,Retailer B,Occupied,,RZ02,consumption 2024,10615.97,2024
+13,Retailer E,Occupied,Residential - Residential Institution,RZ06,consumption 2024,2298.74,2024
+14,Retailer B,Vacant,Commercial - Utility,RZ08,consumption 2024,2.21,2024
+15,Retailer B,Occupied,Commercial - Community Services,RZ04,consumption 2024,5.34,2024
+16,Retailer B,Occupied,Residential - Dwelling,RZ02,consumption 2024,604.44,2024
+17,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2024,118.34,2024
+18,Retailer A,Vacant,Commercial - Medical,RZ08,consumption 2024,139.73,2024
+19,Retailer A,Occupied,Commercial - Community Services,RZ06,consumption 2024,46.75,2024
+20,Retailer B,Occupied,,RZ,consumption 2024,92.59,2024
+22,Retailer E,Occupied,,RZ04,consumption 2024,424.61,2024
+23,Retailer B,Vacant,Commercial - Industrial,RZ07,consumption 2024,162.89,2024
+25,Retailer F,Occupied,Commercial - Industrial,RZ04,consumption 2024,688.73,2024
+26,Retailer A,Occupied,Commercial - Retail,RZ03,consumption 2024,26.13,2024
+27,Retailer G,Occupied,Commercial - Retail,RZ07,consumption 2024,80.84,2024
+28,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2024,3.16,2024
+32,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2024,23.64,2024
+33,Retailer D,Occupied,Commercial - Retail,RZ08,consumption 2024,30.42,2024
+35,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2024,73.0,2024
+36,Retailer B,Vacant,Commercial - Retail,RZ04,consumption 2024,0.67,2024
+37,Retailer H,Occupied,Commercial - Retail,RZ03,consumption 2024,57.21,2024
+40,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2024,106.02,2024
+41,Retailer A,Occupied,Commercial - Office,RZ03,consumption 2024,8.76,2024
+42,Retailer A,Occupied,Commercial - Education,RZ02,consumption 2024,556.34,2024
+43,Retailer B,Vacant,Commercial - Industrial,RZ03,consumption 2024,0.0,2024
+44,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2024,19.39,2024
+47,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2024,37.67,2024
+50,Retailer B,Occupied,Land - Allotment,RZ08,consumption 2024,435.08,2024
+51,Retailer B,Occupied,Residential - Dwelling,RZ05,consumption 2024,1278.95,2024
+52,Retailer B,Occupied,Commercial - Office,RZ01,consumption 2024,232.9,2024
+54,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2024,0.0,2024
+55,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ03,consumption 2024,5961.21,2024
+56,Retailer D,Occupied,Commercial - Retail,RZ08,consumption 2024,931.92,2024
+57,Retailer B,Occupied,Commercial - Retail,RZ06,consumption 2024,63.83,2024
+58,Retailer B,Occupied,,RZ06,consumption 2024,211.11,2024
+59,Retailer A,Occupied,Commercial - Leisure,RZ02,consumption 2024,325.11,2024
+61,Retailer A,Occupied,Commercial - Retail,RZ06,consumption 2024,159.51,2024
+62,Retailer B,Vacant,Commercial - Retail,RZ03,consumption 2024,2.7,2024
+63,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2024,589.65,2024
+65,Retailer B,Occupied,,RZ07,consumption 2024,0.0,2024
+67,Retailer B,Vacant,,RZ03,consumption 2024,0.0,2024
+68,Retailer A,Occupied,Commercial - Retail,RZ08,consumption 2024,72.15,2024
+69,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2024,9.15,2024
+70,Retailer B,Occupied,Commercial - Agricultural,RZ02,consumption 2024,110.29,2024
+72,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2024,137.91,2024
+73,Retailer I,Occupied,Commercial - Office,RZ08,consumption 2024,254.2,2024
+74,Retailer A,Occupied,Commercial - Retail,RZ01,consumption 2024,41.98,2024
+76,Retailer B,Occupied,Commercial - Office,RZ05,consumption 2024,354.42,2024
+77,Retailer B,Occupied,Commercial - Agricultural,RZ05,consumption 2024,3453.2,2024
+78,Retailer B,Occupied,Residential - Dwelling,RZ05,consumption 2024,842.01,2024
+79,Retailer A,Occupied,Commercial - Retail,RZ03,consumption 2024,28.71,2024
+80,Retailer B,Occupied,Commercial - Retail,RZ07,consumption 2024,23.54,2024
+81,Retailer D,Occupied,Commercial - Agricultural,RZ08,consumption 2024,191617.94,2024
+82,Retailer B,Occupied,Commercial - Industrial,RZ05,consumption 2024,64.06,2024
+83,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2024,31.67,2024
+84,Retailer B,Occupied,Object of Interest - Place of Worship,RZ06,consumption 2024,64.55,2024
+86,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2024,143.35,2024
+87,Retailer I,Occupied,Commercial - Retail,RZ03,consumption 2024,3071.95,2024
+89,Retailer B,Occupied,Residential - Dwelling,RZ07,consumption 2024,27.58,2024
+90,Retailer F,Occupied,Parent Shell - Property Shell,RZ04,consumption 2024,0.0,2024
+91,Retailer B,Occupied,Object of Interest - Place of Worship,RZ04,consumption 2024,31.03,2024
+93,Retailer J,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ04,consumption 2024,4529.69,2024
+94,Retailer B,Vacant,Commercial - Retail,RZ01,consumption 2024,38.23,2024
+95,Retailer B,Occupied,Commercial - Animal Centre,RZ03,consumption 2024,182.8,2024
+96,Retailer A,Occupied,Commercial - Community Services,RZ03,consumption 2024,73.88,2024
+97,Retailer A,Occupied,Object of Interest - Place of Worship,RZ06,consumption 2024,44.6,2024
+98,Retailer D,Occupied,Commercial - Leisure,RZ08,consumption 2024,303.28,2024
+100,Retailer B,Occupied,Parent Shell - Property Shell,RZ06,consumption 2024,897.09,2024
+101,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ02,consumption 2024,329.28,2024
+102,Retailer A,Occupied,Commercial - Office,RZ01,consumption 2024,20.81,2024
+103,Retailer G,Occupied,Commercial - Retail,RZ04,consumption 2024,127.23,2024
+105,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2024,25.01,2024
+107,Retailer B,Occupied,,RZ06,consumption 2024,0.0,2024
+109,Retailer B,Occupied,Commercial - Community Services,RZ04,consumption 2024,4.76,2024
+110,Retailer B,Occupied,Residential - Dwelling,RZ03,consumption 2024,8009.81,2024
+111,Retailer D,Occupied,,RZ07,consumption 2024,84.66,2024
+112,Retailer B,Occupied,Object of Interest - Place of Worship,RZ05,consumption 2024,2.34,2024
+113,Retailer A,Occupied,Commercial - Retail,RZ08,consumption 2024,342.08,2024
+114,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2024,9.91,2024
+115,Retailer K,Occupied,Commercial - Retail,RZ01,consumption 2024,2525.47,2024
+116,Retailer A,Occupied,Commercial - Office,RZ02,consumption 2024,89.55,2024
+117,Retailer A,Occupied,Commercial - Medical,RZ03,consumption 2024,53.26,2024
+118,Retailer A,Occupied,Commercial - Retail,RZ03,consumption 2024,61.91,2024
+119,Retailer A,Vacant,Parent Shell - Property Shell,RZ02,consumption 2024,25.34,2024
+120,Retailer B,Occupied,Commercial - Retail,RZ02,consumption 2024,90.77,2024
+121,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2024,14.69,2024
+122,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2024,0.0,2024
+124,Retailer B,Occupied,Residential - Dwelling,RZ06,consumption 2024,-11.17,2024
+125,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2024,361.16,2024
+126,Retailer A,Occupied,Commercial - Office,RZ02,consumption 2024,20.08,2024
+127,Retailer G,Occupied,Parent Shell - Property Shell,RZ04,consumption 2024,71.04,2024
+128,Retailer B,Occupied,,RZ04,consumption 2024,2350.72,2024
+129,Retailer A,Vacant,Commercial - Office,RZ08,consumption 2024,17.04,2024
+130,Retailer B,Occupied,Commercial - Office,RZ01,consumption 2024,50.34,2024
+131,Retailer D,Occupied,Commercial - Retail,RZ03,consumption 2024,27.34,2024
+133,Retailer A,Occupied,Parent Shell - Property Shell,RZ04,consumption 2024,691.4,2024
+134,Retailer B,Occupied,Residential - Dwelling,RZ01,consumption 2024,78.67,2024
+135,Retailer B,Vacant,Parent Shell - Property Shell,RZ02,consumption 2024,86.28,2024
+136,Retailer B,Vacant,Commercial - Agricultural,RZ07,consumption 2024,0.0,2024
+137,Retailer B,Occupied,Commercial - Industrial,RZ01,consumption 2024,5.06,2024
+138,Retailer A,Occupied,Residential - Dwelling,RZ01,consumption 2024,1899.24,2024
+139,Retailer A,Occupied,Commercial - Retail,RZ01,consumption 2024,560.87,2024
+140,Retailer A,Occupied,Commercial - Leisure,RZ01,consumption 2024,65.74,2024
+141,Retailer D,Occupied,Commercial - Retail,RZ01,consumption 2024,9.33,2024
+144,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2024,284.66,2024
+146,Retailer A,Occupied,Object of Interest - Place of Worship,RZ02,consumption 2024,59.99,2024
+149,Retailer B,Occupied,,RZ05,consumption 2024,0.0,2024
+150,Retailer B,Occupied,Commercial - Agricultural,RZ07,consumption 2024,40.98,2024
+151,Retailer B,Occupied,,RZ04,consumption 2024,0.0,2024
+152,Retailer F,Occupied,Commercial - Education,RZ07,consumption 2024,559.98,2024
+153,Retailer B,Occupied,Commercial - Agricultural,RZ02,consumption 2024,531.15,2024
+154,Retailer B,Occupied,Commercial - Leisure,RZ02,consumption 2024,33.79,2024
+155,Retailer A,Occupied,Commercial - Medical,RZ02,consumption 2024,16.5,2024
+156,Retailer I,Occupied,Commercial - Education,RZ03,consumption 2024,19.87,2024
+157,Retailer B,Occupied,Commercial - Leisure,RZ02,consumption 2024,909.46,2024
+158,Retailer B,Occupied,Residential - Dwelling,RZ02,consumption 2024,0.0,2024
+159,Retailer A,Occupied,Commercial - Transport,RZ01,consumption 2024,3.95,2024
+160,Retailer C,Occupied,Parent Shell - Property Shell,RZ04,consumption 2024,934.9,2024
+161,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2024,27.11,2024
+163,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2024,21.49,2024
+164,Retailer D,Occupied,,RZ01,consumption 2024,153.34,2024
+165,Retailer D,Occupied,Commercial - Retail,RZ05,consumption 2024,1327.55,2024
+166,Retailer A,Occupied,Commercial - Industrial,RZ03,consumption 2024,16.3,2024
+167,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2024,2.64,2024
+168,Retailer B,Occupied,Dual Use,RZ02,consumption 2024,158.61,2024
+171,Retailer B,Occupied,,RZ07,consumption 2024,124.83,2024
+173,Retailer I,Occupied,Commercial - Education,RZ03,consumption 2024,2748.69,2024
+175,Retailer A,Occupied,Commercial - Industrial,RZ02,consumption 2024,344.6,2024
+176,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2024,39.64,2024
+177,Retailer D,Occupied,Commercial - Retail,RZ04,consumption 2024,22.48,2024
+178,Retailer B,Occupied,Commercial - Medical,RZ04,consumption 2024,99.74,2024
+179,Retailer B,Occupied,Commercial - Office,RZ03,consumption 2024,0.0,2024
+180,Retailer B,Occupied,Commercial - Office,RZ01,consumption 2024,95.14,2024
+181,Retailer A,Occupied,Commercial - Industrial,RZ02,consumption 2024,15.48,2024
+182,Retailer B,Occupied,Commercial - Medical,RZ05,consumption 2024,42.3,2024
+183,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2024,989.26,2024
+184,Retailer F,Occupied,Commercial - Retail,RZ04,consumption 2024,1905.34,2024
+185,Retailer D,Occupied,Parent Shell - Property Shell,RZ02,consumption 2024,52.72,2024
+187,Retailer B,Occupied,Commercial - Office,RZ08,consumption 2024,0.0,2024
+188,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2024,0.0,2024
+189,Retailer I,Occupied,Commercial - Emergency/Rescue Service,RZ06,consumption 2024,43.88,2024
+190,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2024,18.62,2024
+191,Retailer B,Occupied,Residential - Dwelling,RZ02,consumption 2024,192.11,2024
+192,Retailer L,Occupied,Commercial - Retail,RZ04,consumption 2024,745.8,2024
+194,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2024,989.37,2024
+195,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2024,1768.2,2024
+196,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2024,951.83,2024
+198,Retailer G,Vacant,Commercial - Retail,RZ02,consumption 2024,56.79,2024
+199,Retailer B,Occupied,Residential - Dwelling,RZ03,consumption 2024,1505.36,2024
+200,Retailer B,Occupied,Commercial - Leisure,RZ05,consumption 2024,6.15,2024
+201,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2024,78.73,2024
+203,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2024,1.94,2024
+204,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ04,consumption 2024,619.72,2024
+205,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2024,12.94,2024
+206,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2024,57.36,2024
+207,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2024,16.22,2024
+208,Retailer A,Occupied,Commercial - Education,RZ02,consumption 2024,537.4,2024
+209,Retailer A,Occupied,Parent Shell - Property Shell,RZ05,consumption 2024,137.67,2024
+210,Retailer B,Occupied,,RZ02,consumption 2024,10.14,2024
+212,Retailer B,Vacant,Commercial - Retail,RZ06,consumption 2024,19.29,2024
+1,Retailer A,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ01,consumption 2023,72.77,2023
+2,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2023,20.46,2023
+3,Retailer B,Vacant,Commercial - Retail,RZ05,consumption 2023,0.0,2023
+4,Retailer A,Occupied,Parent Shell - Property Shell,RZ02,consumption 2023,320.13,2023
+5,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2023,244.5,2023
+7,Retailer B,Vacant,Commercial - Retail,RZ04,consumption 2023,22.72,2023
+8,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2023,1.11,2023
+9,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2023,29.06,2023
+10,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2023,157.2,2023
+11,Retailer D,Occupied,,RZ03,consumption 2023,91.73,2023
+12,Retailer B,Occupied,,RZ02,consumption 2023,12066.34,2023
+13,Retailer E,Occupied,Residential - Residential Institution,RZ06,consumption 2023,2330.93,2023
+15,Retailer B,Occupied,Commercial - Community Services,RZ04,consumption 2023,17.55,2023
+16,Retailer B,Occupied,Residential - Dwelling,RZ02,consumption 2023,1335.36,2023
+17,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2023,85.12,2023
+18,Retailer A,Vacant,Commercial - Medical,RZ08,consumption 2023,262.04,2023
+20,Retailer B,Occupied,,RZ,consumption 2023,663.5,2023
+21,Retailer B,Vacant,,RZ02,consumption 2023,0.0,2023
+22,Retailer E,Occupied,,RZ04,consumption 2023,257.62,2023
+23,Retailer B,Vacant,Commercial - Industrial,RZ07,consumption 2023,0.0,2023
+24,Retailer A,Occupied,Commercial - Medical,RZ01,consumption 2023,83.65,2023
+25,Retailer F,Occupied,Commercial - Industrial,RZ04,consumption 2023,90.52,2023
+26,Retailer A,Occupied,Commercial - Retail,RZ03,consumption 2023,1.59,2023
+27,Retailer G,Occupied,Commercial - Retail,RZ07,consumption 2023,0.0,2023
+28,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2023,26.8,2023
+29,Retailer B,Vacant,,RZ03,consumption 2023,0.0,2023
+30,Retailer B,Vacant,,RZ03,consumption 2023,0.0,2023
+31,Retailer B,Vacant,Commercial - Storage Land,RZ04,consumption 2023,0.0,2023
+32,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2023,25.72,2023
+33,Retailer D,Occupied,Commercial - Retail,RZ08,consumption 2023,41.26,2023
+35,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2023,65.15,2023
+36,Retailer B,Vacant,Commercial - Retail,RZ04,consumption 2023,0.0,2023
+37,Retailer H,Occupied,Commercial - Retail,RZ03,consumption 2023,61.83,2023
+38,Retailer B,Vacant,Commercial - Retail,RZ03,consumption 2023,0.0,2023
+40,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2023,91.42,2023
+41,Retailer A,Occupied,Commercial - Office,RZ03,consumption 2023,13.08,2023
+42,Retailer A,Occupied,Commercial - Education,RZ02,consumption 2023,1569.29,2023
+43,Retailer B,Vacant,Commercial - Industrial,RZ03,consumption 2023,0.0,2023
+44,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2023,5.7,2023
+45,Retailer B,Vacant,,RZ04,consumption 2023,0.0,2023
+47,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2023,44.21,2023
+48,Retailer B,Vacant,,RZ03,consumption 2023,0.0,2023
+49,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2023,12.18,2023
+50,Retailer B,Occupied,Land - Allotment,RZ08,consumption 2023,201.16,2023
+51,Retailer B,Occupied,Residential - Dwelling,RZ05,consumption 2023,1213.92,2023
+52,Retailer B,Occupied,Commercial - Office,RZ01,consumption 2023,518.19,2023
+53,Retailer A,Occupied,Commercial - Industrial,RZ07,consumption 2023,0.0,2023
+54,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2023,-1.47,2023
+55,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ03,consumption 2023,3682.64,2023
+56,Retailer D,Occupied,Commercial - Retail,RZ08,consumption 2023,2052.53,2023
+58,Retailer B,Occupied,,RZ06,consumption 2023,112.37,2023
+59,Retailer A,Occupied,Commercial - Leisure,RZ02,consumption 2023,195.46,2023
+60,Retailer B,Occupied,Commercial - Office,RZ06,consumption 2023,110.62,2023
+61,Retailer A,Occupied,Commercial - Retail,RZ06,consumption 2023,11.38,2023
+62,Retailer B,Vacant,Commercial - Retail,RZ03,consumption 2023,71.82,2023
+63,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2023,474.5,2023
+64,Retailer D,Occupied,Commercial - Industrial,RZ07,consumption 2023,40.11,2023
+65,Retailer B,Occupied,,RZ07,consumption 2023,0.0,2023
+67,Retailer B,Vacant,,RZ03,consumption 2023,0.0,2023
+68,Retailer A,Occupied,Commercial - Retail,RZ08,consumption 2023,128.29,2023
+69,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2023,11.68,2023
+70,Retailer B,Occupied,Commercial - Agricultural,RZ02,consumption 2023,120.98,2023
+71,Retailer B,Occupied,Parent Shell - Property Shell,RZ04,consumption 2023,0.0,2023
+72,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2023,182.5,2023
+73,Retailer I,Occupied,Commercial - Office,RZ08,consumption 2023,304.9,2023
+74,Retailer A,Occupied,Commercial - Retail,RZ01,consumption 2023,35.99,2023
+75,Retailer D,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ03,consumption 2023,42.74,2023
+76,Retailer B,Occupied,Commercial - Office,RZ05,consumption 2023,332.16,2023
+77,Retailer B,Occupied,Commercial - Agricultural,RZ05,consumption 2023,1215.73,2023
+78,Retailer B,Occupied,Residential - Dwelling,RZ05,consumption 2023,745.12,2023
+79,Retailer A,Occupied,Commercial - Retail,RZ03,consumption 2023,24.89,2023
+80,Retailer B,Occupied,Commercial - Retail,RZ07,consumption 2023,36.14,2023
+81,Retailer D,Occupied,Commercial - Agricultural,RZ08,consumption 2023,190783.01,2023
+82,Retailer B,Occupied,Commercial - Industrial,RZ05,consumption 2023,50.24,2023
+83,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2023,35.2,2023
+84,Retailer B,Occupied,Object of Interest - Place of Worship,RZ06,consumption 2023,28.71,2023
+85,Retailer B,Occupied,,RZ07,consumption 2023,9.38,2023
+86,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2023,160.61,2023
+87,Retailer I,Occupied,Commercial - Retail,RZ03,consumption 2023,2661.49,2023
+88,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2023,49.16,2023
+89,Retailer B,Occupied,Residential - Dwelling,RZ07,consumption 2023,4.24,2023
+90,Retailer F,Occupied,Parent Shell - Property Shell,RZ04,consumption 2023,0.0,2023
+91,Retailer B,Occupied,Object of Interest - Place of Worship,RZ04,consumption 2023,38.89,2023
+92,Retailer B,Vacant,Commercial - Industrial,RZ05,consumption 2023,339.42,2023
+93,Retailer J,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ04,consumption 2023,4925.85,2023
+94,Retailer B,Vacant,Commercial - Retail,RZ01,consumption 2023,50.63,2023
+95,Retailer B,Occupied,Commercial - Animal Centre,RZ03,consumption 2023,1526.27,2023
+96,Retailer A,Occupied,Commercial - Community Services,RZ03,consumption 2023,82.4,2023
+97,Retailer A,Occupied,Object of Interest - Place of Worship,RZ06,consumption 2023,56.42,2023
+98,Retailer D,Occupied,Commercial - Leisure,RZ08,consumption 2023,244.88,2023
+99,Retailer B,Occupied,,RZ,consumption 2023,0.0,2023
+100,Retailer B,Occupied,Parent Shell - Property Shell,RZ06,consumption 2023,885.6,2023
+101,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ02,consumption 2023,360.5,2023
+102,Retailer A,Occupied,Commercial - Office,RZ01,consumption 2023,0.0,2023
+103,Retailer G,Occupied,Commercial - Retail,RZ04,consumption 2023,152.34,2023
+104,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2023,4.18,2023
+105,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2023,26.49,2023
+106,Retailer B,Vacant,Residential - Dwelling,RZ03,consumption 2023,0.0,2023
+107,Retailer B,Occupied,,RZ06,consumption 2023,0.0,2023
+108,Retailer A,Occupied,,RZ06,consumption 2023,-6781.94,2023
+109,Retailer B,Occupied,Commercial - Community Services,RZ04,consumption 2023,24.41,2023
+110,Retailer B,Occupied,Residential - Dwelling,RZ03,consumption 2023,5760.32,2023
+111,Retailer D,Occupied,,RZ07,consumption 2023,98.6,2023
+112,Retailer B,Occupied,Object of Interest - Place of Worship,RZ05,consumption 2023,0.99,2023
+113,Retailer A,Occupied,Commercial - Retail,RZ08,consumption 2023,347.37,2023
+114,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2023,5.53,2023
+115,Retailer K,Occupied,Commercial - Retail,RZ01,consumption 2023,2599.13,2023
+116,Retailer A,Occupied,Commercial - Office,RZ02,consumption 2023,64.09,2023
+117,Retailer A,Occupied,Commercial - Medical,RZ03,consumption 2023,65.55,2023
+118,Retailer A,Occupied,Commercial - Retail,RZ03,consumption 2023,60.47,2023
+119,Retailer A,Vacant,Parent Shell - Property Shell,RZ02,consumption 2023,26.77,2023
+120,Retailer B,Occupied,Commercial - Retail,RZ02,consumption 2023,92.76,2023
+121,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2023,14.04,2023
+122,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2023,136.88,2023
+123,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2023,6239.06,2023
+124,Retailer B,Occupied,Residential - Dwelling,RZ06,consumption 2023,105.69,2023
+125,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2023,183.1,2023
+126,Retailer A,Occupied,Commercial - Office,RZ02,consumption 2023,20.28,2023
+127,Retailer G,Occupied,Parent Shell - Property Shell,RZ04,consumption 2023,548.25,2023
+128,Retailer B,Occupied,,RZ04,consumption 2023,4067.55,2023
+129,Retailer A,Vacant,Commercial - Office,RZ08,consumption 2023,29.94,2023
+130,Retailer B,Occupied,Commercial - Office,RZ01,consumption 2023,56.99,2023
+131,Retailer D,Occupied,Commercial - Retail,RZ03,consumption 2023,19.29,2023
+132,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2023,377.58,2023
+133,Retailer A,Occupied,Parent Shell - Property Shell,RZ04,consumption 2023,321.45,2023
+134,Retailer B,Occupied,Residential - Dwelling,RZ01,consumption 2023,88.83,2023
+135,Retailer B,Vacant,Parent Shell - Property Shell,RZ02,consumption 2023,70.79,2023
+136,Retailer B,Vacant,Commercial - Agricultural,RZ07,consumption 2023,0.0,2023
+138,Retailer A,Occupied,Residential - Dwelling,RZ01,consumption 2023,1578.45,2023
+139,Retailer A,Occupied,Commercial - Retail,RZ01,consumption 2023,730.97,2023
+140,Retailer A,Occupied,Commercial - Leisure,RZ01,consumption 2023,64.3,2023
+141,Retailer D,Occupied,Commercial - Retail,RZ01,consumption 2023,8.47,2023
+142,Retailer A,Occupied,Commercial - Retail,RZ01,consumption 2023,30.42,2023
+143,Retailer D,Occupied,Commercial - Industrial,RZ06,consumption 2023,20.85,2023
+144,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2023,338.02,2023
+146,Retailer A,Occupied,Object of Interest - Place of Worship,RZ02,consumption 2023,65.58,2023
+147,Retailer B,Occupied,Commercial - Leisure,RZ02,consumption 2023,631.4,2023
+148,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2023,605.57,2023
+149,Retailer B,Occupied,,RZ05,consumption 2023,0.0,2023
+150,Retailer B,Occupied,Commercial - Agricultural,RZ07,consumption 2023,28.83,2023
+151,Retailer B,Occupied,,RZ04,consumption 2023,0.0,2023
+152,Retailer F,Occupied,Commercial - Education,RZ07,consumption 2023,542.21,2023
+153,Retailer B,Occupied,Commercial - Agricultural,RZ02,consumption 2023,707.41,2023
+154,Retailer B,Occupied,Commercial - Leisure,RZ02,consumption 2023,21.55,2023
+155,Retailer A,Occupied,Commercial - Medical,RZ02,consumption 2023,21.59,2023
+157,Retailer B,Occupied,Commercial - Leisure,RZ02,consumption 2023,1251.43,2023
+158,Retailer B,Occupied,Residential - Dwelling,RZ02,consumption 2023,0.0,2023
+159,Retailer A,Occupied,Commercial - Transport,RZ01,consumption 2023,2.51,2023
+160,Retailer C,Occupied,Parent Shell - Property Shell,RZ04,consumption 2023,866.65,2023
+161,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2023,21.21,2023
+162,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2023,67.88,2023
+163,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2023,20.94,2023
+164,Retailer D,Occupied,,RZ01,consumption 2023,97.15,2023
+165,Retailer D,Occupied,Commercial - Retail,RZ05,consumption 2023,942.39,2023
+166,Retailer A,Occupied,Commercial - Industrial,RZ03,consumption 2023,6.34,2023
+167,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2023,2.18,2023
+168,Retailer B,Occupied,Dual Use,RZ02,consumption 2023,126.51,2023
+169,Retailer B,Occupied,Commercial - Office,RZ03,consumption 2023,48.02,2023
+170,Retailer B,Occupied,Commercial - Industrial,RZ03,consumption 2023,60.24,2023
+171,Retailer B,Occupied,,RZ07,consumption 2023,9.78,2023
+172,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2023,19.82,2023
+173,Retailer I,Occupied,Commercial - Education,RZ03,consumption 2023,2539.74,2023
+175,Retailer A,Occupied,Commercial - Industrial,RZ02,consumption 2023,76.47,2023
+176,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2023,30.26,2023
+177,Retailer D,Occupied,Commercial - Retail,RZ04,consumption 2023,27.99,2023
+178,Retailer B,Occupied,Commercial - Medical,RZ04,consumption 2023,144.43,2023
+179,Retailer B,Occupied,Commercial - Office,RZ03,consumption 2023,0.0,2023
+180,Retailer B,Occupied,Commercial - Office,RZ01,consumption 2023,93.82,2023
+181,Retailer A,Occupied,Commercial - Industrial,RZ02,consumption 2023,15.44,2023
+182,Retailer B,Occupied,Commercial - Medical,RZ05,consumption 2023,46.23,2023
+183,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2023,876.77,2023
+184,Retailer F,Occupied,Commercial - Retail,RZ04,consumption 2023,1921.64,2023
+185,Retailer D,Occupied,Parent Shell - Property Shell,RZ02,consumption 2023,119.6,2023
+187,Retailer B,Occupied,Commercial - Office,RZ08,consumption 2023,-7.2,2023
+188,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2023,11.71,2023
+189,Retailer I,Occupied,Commercial - Emergency/Rescue Service,RZ06,consumption 2023,29.56,2023
+190,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2023,34.87,2023
+191,Retailer B,Occupied,Residential - Dwelling,RZ02,consumption 2023,126.0,2023
+192,Retailer L,Occupied,Commercial - Retail,RZ04,consumption 2023,670.92,2023
+193,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2023,1150.07,2023
+194,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2023,2272.91,2023
+195,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2023,10.44,2023
+196,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2023,880.97,2023
+197,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2023,16.79,2023
+198,Retailer G,Vacant,Commercial - Retail,RZ02,consumption 2023,0.0,2023
+199,Retailer B,Occupied,Residential - Dwelling,RZ03,consumption 2023,0.0,2023
+200,Retailer B,Occupied,Commercial - Leisure,RZ05,consumption 2023,16.21,2023
+201,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2023,58.23,2023
+202,Retailer B,Occupied,Residential - Dwelling,RZ02,consumption 2023,874.82,2023
+203,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2023,1.3,2023
+204,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ04,consumption 2023,727.98,2023
+205,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2023,155.96,2023
+206,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2023,74.17,2023
+207,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2023,58.29,2023
+208,Retailer A,Occupied,Commercial - Education,RZ02,consumption 2023,551.35,2023
+209,Retailer A,Occupied,Parent Shell - Property Shell,RZ05,consumption 2023,477.32,2023
+210,Retailer B,Occupied,,RZ02,consumption 2023,22.24,2023
+211,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2023,0.0,2023
+212,Retailer B,Vacant,Commercial - Retail,RZ06,consumption 2023,6.08,2023
+1,Retailer A,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ01,"consumption 2022 (hot, dry year)",97.19,2022
+2,Retailer B,Occupied,Commercial - Office,RZ04,"consumption 2022 (hot, dry year)",14.66,2022
+3,Retailer B,Vacant,Commercial - Retail,RZ05,"consumption 2022 (hot, dry year)",0.0,2022
+4,Retailer A,Occupied,Parent Shell - Property Shell,RZ02,"consumption 2022 (hot, dry year)",334.81,2022
+5,Retailer B,Occupied,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",114.01,2022
+7,Retailer B,Vacant,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",14.69,2022
+8,Retailer B,Occupied,Commercial - Office,RZ04,"consumption 2022 (hot, dry year)",1.1,2022
+10,Retailer B,Occupied,Residential - Dwelling,RZ08,"consumption 2022 (hot, dry year)",142.59,2022
+11,Retailer D,Occupied,,RZ03,"consumption 2022 (hot, dry year)",11.77,2022
+12,Retailer B,Occupied,,RZ02,"consumption 2022 (hot, dry year)",0.0,2022
+13,Retailer E,Occupied,Residential - Residential Institution,RZ06,"consumption 2022 (hot, dry year)",1759.47,2022
+14,Retailer B,Vacant,Commercial - Utility,RZ08,"consumption 2022 (hot, dry year)",-11.08,2022
+15,Retailer B,Occupied,Commercial - Community Services,RZ04,"consumption 2022 (hot, dry year)",5.82,2022
+16,Retailer B,Occupied,Residential - Dwelling,RZ02,"consumption 2022 (hot, dry year)",442.45,2022
+17,Retailer B,Occupied,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",95.74,2022
+18,Retailer A,Vacant,Commercial - Medical,RZ08,"consumption 2022 (hot, dry year)",166.79,2022
+19,Retailer A,Occupied,Commercial - Community Services,RZ06,"consumption 2022 (hot, dry year)",43.66,2022
+20,Retailer B,Occupied,,RZ,"consumption 2022 (hot, dry year)",706.45,2022
+21,Retailer B,Vacant,,RZ02,"consumption 2022 (hot, dry year)",9.69,2022
+22,Retailer E,Occupied,,RZ04,"consumption 2022 (hot, dry year)",388.27,2022
+23,Retailer B,Vacant,Commercial - Industrial,RZ07,"consumption 2022 (hot, dry year)",0.0,2022
+24,Retailer A,Occupied,Commercial - Medical,RZ01,"consumption 2022 (hot, dry year)",0.0,2022
+25,Retailer F,Occupied,Commercial - Industrial,RZ04,"consumption 2022 (hot, dry year)",128.64,2022
+26,Retailer A,Occupied,Commercial - Retail,RZ03,"consumption 2022 (hot, dry year)",356.55,2022
+27,Retailer G,Occupied,Commercial - Retail,RZ07,"consumption 2022 (hot, dry year)",0.98,2022
+28,Retailer B,Occupied,Commercial - Office,RZ04,"consumption 2022 (hot, dry year)",140.69,2022
+29,Retailer B,Vacant,,RZ03,"consumption 2022 (hot, dry year)",1.3,2022
+30,Retailer B,Vacant,,RZ03,"consumption 2022 (hot, dry year)",14.72,2022
+31,Retailer B,Vacant,Commercial - Storage Land,RZ04,"consumption 2022 (hot, dry year)",0.0,2022
+32,Retailer B,Occupied,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",4.8,2022
+33,Retailer D,Occupied,Commercial - Retail,RZ08,"consumption 2022 (hot, dry year)",46.29,2022
+35,Retailer B,Occupied,Commercial - Retail,RZ03,"consumption 2022 (hot, dry year)",105.97,2022
+36,Retailer B,Vacant,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",0.0,2022
+37,Retailer H,Occupied,Commercial - Retail,RZ03,"consumption 2022 (hot, dry year)",71.54,2022
+38,Retailer B,Vacant,Commercial - Retail,RZ03,"consumption 2022 (hot, dry year)",0.0,2022
+40,Retailer B,Occupied,Commercial - Retail,RZ03,"consumption 2022 (hot, dry year)",85.21,2022
+41,Retailer A,Occupied,Commercial - Office,RZ03,"consumption 2022 (hot, dry year)",11.46,2022
+42,Retailer A,Occupied,Commercial - Education,RZ02,"consumption 2022 (hot, dry year)",724.61,2022
+43,Retailer B,Vacant,Commercial - Industrial,RZ03,"consumption 2022 (hot, dry year)",0.0,2022
+44,Retailer B,Occupied,Commercial - Industrial,RZ04,"consumption 2022 (hot, dry year)",3.89,2022
+45,Retailer B,Vacant,,RZ04,"consumption 2022 (hot, dry year)",0.0,2022
+47,Retailer B,Occupied,Commercial - Retail,RZ08,"consumption 2022 (hot, dry year)",46.29,2022
+48,Retailer B,Vacant,,RZ03,"consumption 2022 (hot, dry year)",0.0,2022
+49,Retailer B,Occupied,Commercial - Industrial,RZ04,"consumption 2022 (hot, dry year)",11.2,2022
+50,Retailer B,Occupied,Land - Allotment,RZ08,"consumption 2022 (hot, dry year)",442.63,2022
+51,Retailer B,Occupied,Residential - Dwelling,RZ05,"consumption 2022 (hot, dry year)",1754.94,2022
+52,Retailer B,Occupied,Commercial - Office,RZ01,"consumption 2022 (hot, dry year)",400.46,2022
+54,Retailer B,Occupied,Commercial - Retail,RZ03,"consumption 2022 (hot, dry year)",6.08,2022
+55,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ03,"consumption 2022 (hot, dry year)",2222.22,2022
+56,Retailer D,Occupied,Commercial - Retail,RZ08,"consumption 2022 (hot, dry year)",514.53,2022
+57,Retailer B,Occupied,Commercial - Retail,RZ06,"consumption 2022 (hot, dry year)",0.0,2022
+58,Retailer B,Occupied,,RZ06,"consumption 2022 (hot, dry year)",171.28,2022
+59,Retailer A,Occupied,Commercial - Leisure,RZ02,"consumption 2022 (hot, dry year)",325.42,2022
+60,Retailer B,Occupied,Commercial - Office,RZ06,"consumption 2022 (hot, dry year)",269.64,2022
+61,Retailer A,Occupied,Commercial - Retail,RZ06,"consumption 2022 (hot, dry year)",352.3,2022
+63,Retailer B,Occupied,Commercial - Industrial,RZ04,"consumption 2022 (hot, dry year)",341.48,2022
+64,Retailer D,Occupied,Commercial - Industrial,RZ07,"consumption 2022 (hot, dry year)",32.99,2022
+67,Retailer B,Vacant,,RZ03,"consumption 2022 (hot, dry year)",0.0,2022
+68,Retailer A,Occupied,Commercial - Retail,RZ08,"consumption 2022 (hot, dry year)",0.0,2022
+69,Retailer B,Occupied,Residential - Dwelling,RZ04,"consumption 2022 (hot, dry year)",35.45,2022
+70,Retailer B,Occupied,Commercial - Agricultural,RZ02,"consumption 2022 (hot, dry year)",152.92,2022
+71,Retailer B,Occupied,Parent Shell - Property Shell,RZ04,"consumption 2022 (hot, dry year)",0.0,2022
+72,Retailer B,Occupied,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",404.67,2022
+73,Retailer I,Occupied,Commercial - Office,RZ08,"consumption 2022 (hot, dry year)",115.68,2022
+75,Retailer D,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ03,"consumption 2022 (hot, dry year)",232.97,2022
+76,Retailer B,Occupied,Commercial - Office,RZ05,"consumption 2022 (hot, dry year)",232.44,2022
+77,Retailer B,Occupied,Commercial - Agricultural,RZ05,"consumption 2022 (hot, dry year)",1031.52,2022
+78,Retailer B,Occupied,Residential - Dwelling,RZ05,"consumption 2022 (hot, dry year)",819.19,2022
+79,Retailer A,Occupied,Commercial - Retail,RZ03,"consumption 2022 (hot, dry year)",27.45,2022
+80,Retailer B,Occupied,Commercial - Retail,RZ07,"consumption 2022 (hot, dry year)",43.14,2022
+81,Retailer D,Occupied,Commercial - Agricultural,RZ08,"consumption 2022 (hot, dry year)",204476.58,2022
+82,Retailer B,Occupied,Commercial - Industrial,RZ05,"consumption 2022 (hot, dry year)",100.08,2022
+84,Retailer B,Occupied,Object of Interest - Place of Worship,RZ06,"consumption 2022 (hot, dry year)",19.3,2022
+85,Retailer B,Occupied,,RZ07,"consumption 2022 (hot, dry year)",21.26,2022
+86,Retailer B,Occupied,Commercial - Retail,RZ03,"consumption 2022 (hot, dry year)",121.93,2022
+87,Retailer I,Occupied,Commercial - Retail,RZ03,"consumption 2022 (hot, dry year)",2445.76,2022
+88,Retailer B,Occupied,Commercial - Retail,RZ08,"consumption 2022 (hot, dry year)",59.95,2022
+89,Retailer B,Occupied,Residential - Dwelling,RZ07,"consumption 2022 (hot, dry year)",9.74,2022
+91,Retailer B,Occupied,Object of Interest - Place of Worship,RZ04,"consumption 2022 (hot, dry year)",19.13,2022
+92,Retailer B,Vacant,Commercial - Industrial,RZ05,"consumption 2022 (hot, dry year)",864.07,2022
+93,Retailer J,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ04,"consumption 2022 (hot, dry year)",4466.37,2022
+94,Retailer B,Vacant,Commercial - Retail,RZ01,"consumption 2022 (hot, dry year)",69.34,2022
+97,Retailer A,Occupied,Object of Interest - Place of Worship,RZ06,"consumption 2022 (hot, dry year)",50.98,2022
+99,Retailer B,Occupied,,RZ,"consumption 2022 (hot, dry year)",0.0,2022
+100,Retailer B,Occupied,Parent Shell - Property Shell,RZ06,"consumption 2022 (hot, dry year)",887.77,2022
+101,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ02,"consumption 2022 (hot, dry year)",370.31,2022
+102,Retailer A,Occupied,Commercial - Office,RZ01,"consumption 2022 (hot, dry year)",9.94,2022
+103,Retailer G,Occupied,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",208.56,2022
+104,Retailer B,Occupied,Residential - Dwelling,RZ08,"consumption 2022 (hot, dry year)",22.94,2022
+105,Retailer B,Occupied,Residential - Dwelling,RZ04,"consumption 2022 (hot, dry year)",20.96,2022
+106,Retailer B,Vacant,Residential - Dwelling,RZ03,"consumption 2022 (hot, dry year)",0.0,2022
+107,Retailer B,Occupied,,RZ06,"consumption 2022 (hot, dry year)",9.66,2022
+108,Retailer A,Occupied,,RZ06,"consumption 2022 (hot, dry year)",153.59,2022
+109,Retailer B,Occupied,Commercial - Community Services,RZ04,"consumption 2022 (hot, dry year)",13.76,2022
+110,Retailer B,Occupied,Residential - Dwelling,RZ03,"consumption 2022 (hot, dry year)",5510.02,2022
+111,Retailer D,Occupied,,RZ07,"consumption 2022 (hot, dry year)",123.12,2022
+112,Retailer B,Occupied,Object of Interest - Place of Worship,RZ05,"consumption 2022 (hot, dry year)",29.0,2022
+113,Retailer A,Occupied,Commercial - Retail,RZ08,"consumption 2022 (hot, dry year)",480.34,2022
+114,Retailer B,Occupied,Commercial - Retail,RZ03,"consumption 2022 (hot, dry year)",5.46,2022
+115,Retailer K,Occupied,Commercial - Retail,RZ01,"consumption 2022 (hot, dry year)",2634.11,2022
+116,Retailer A,Occupied,Commercial - Office,RZ02,"consumption 2022 (hot, dry year)",40.86,2022
+117,Retailer A,Occupied,Commercial - Medical,RZ03,"consumption 2022 (hot, dry year)",44.78,2022
+118,Retailer A,Occupied,Commercial - Retail,RZ03,"consumption 2022 (hot, dry year)",83.83,2022
+119,Retailer A,Vacant,Parent Shell - Property Shell,RZ02,"consumption 2022 (hot, dry year)",21.47,2022
+120,Retailer B,Occupied,Commercial - Retail,RZ02,"consumption 2022 (hot, dry year)",93.98,2022
+121,Retailer B,Occupied,Commercial - Retail,RZ08,"consumption 2022 (hot, dry year)",23.34,2022
+123,Retailer B,Occupied,Commercial - Office,RZ04,"consumption 2022 (hot, dry year)",0.0,2022
+124,Retailer B,Occupied,Residential - Dwelling,RZ06,"consumption 2022 (hot, dry year)",1180.04,2022
+125,Retailer B,Occupied,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",239.04,2022
+126,Retailer A,Occupied,Commercial - Office,RZ02,"consumption 2022 (hot, dry year)",33.59,2022
+127,Retailer G,Occupied,Parent Shell - Property Shell,RZ04,"consumption 2022 (hot, dry year)",1452.28,2022
+128,Retailer B,Occupied,,RZ04,"consumption 2022 (hot, dry year)",5542.54,2022
+129,Retailer A,Vacant,Commercial - Office,RZ08,"consumption 2022 (hot, dry year)",29.83,2022
+130,Retailer B,Occupied,Commercial - Office,RZ01,"consumption 2022 (hot, dry year)",36.25,2022
+131,Retailer D,Occupied,Commercial - Retail,RZ03,"consumption 2022 (hot, dry year)",29.8,2022
+132,Retailer B,Occupied,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",289.02,2022
+133,Retailer A,Occupied,Parent Shell - Property Shell,RZ04,"consumption 2022 (hot, dry year)",1157.56,2022
+134,Retailer B,Occupied,Residential - Dwelling,RZ01,"consumption 2022 (hot, dry year)",85.5,2022
+135,Retailer B,Vacant,Parent Shell - Property Shell,RZ02,"consumption 2022 (hot, dry year)",66.44,2022
+139,Retailer A,Occupied,Commercial - Retail,RZ01,"consumption 2022 (hot, dry year)",724.95,2022
+140,Retailer A,Occupied,Commercial - Leisure,RZ01,"consumption 2022 (hot, dry year)",44.42,2022
+141,Retailer D,Occupied,Commercial - Retail,RZ01,"consumption 2022 (hot, dry year)",13.52,2022
+142,Retailer A,Occupied,Commercial - Retail,RZ01,"consumption 2022 (hot, dry year)",70.65,2022
+143,Retailer D,Occupied,Commercial - Industrial,RZ06,"consumption 2022 (hot, dry year)",25.66,2022
+144,Retailer B,Occupied,Residential - Dwelling,RZ08,"consumption 2022 (hot, dry year)",221.35,2022
+146,Retailer A,Occupied,Object of Interest - Place of Worship,RZ02,"consumption 2022 (hot, dry year)",34.68,2022
+147,Retailer B,Occupied,Commercial - Leisure,RZ02,"consumption 2022 (hot, dry year)",518.33,2022
+148,Retailer B,Occupied,Residential - Dwelling,RZ08,"consumption 2022 (hot, dry year)",797.74,2022
+149,Retailer B,Occupied,,RZ05,"consumption 2022 (hot, dry year)",0.0,2022
+150,Retailer B,Occupied,Commercial - Agricultural,RZ07,"consumption 2022 (hot, dry year)",21.98,2022
+151,Retailer B,Occupied,,RZ04,"consumption 2022 (hot, dry year)",0.0,2022
+152,Retailer F,Occupied,Commercial - Education,RZ07,"consumption 2022 (hot, dry year)",493.18,2022
+153,Retailer B,Occupied,Commercial - Agricultural,RZ02,"consumption 2022 (hot, dry year)",269.24,2022
+154,Retailer B,Occupied,Commercial - Leisure,RZ02,"consumption 2022 (hot, dry year)",36.42,2022
+157,Retailer B,Occupied,Commercial - Leisure,RZ02,"consumption 2022 (hot, dry year)",926.69,2022
+160,Retailer C,Occupied,Parent Shell - Property Shell,RZ04,"consumption 2022 (hot, dry year)",755.53,2022
+161,Retailer B,Occupied,Commercial - Retail,RZ01,"consumption 2022 (hot, dry year)",24.39,2022
+163,Retailer B,Occupied,Commercial - Retail,RZ01,"consumption 2022 (hot, dry year)",17.39,2022
+164,Retailer D,Occupied,,RZ01,"consumption 2022 (hot, dry year)",212.86,2022
+165,Retailer D,Occupied,Commercial - Retail,RZ05,"consumption 2022 (hot, dry year)",837.12,2022
+167,Retailer B,Occupied,Commercial - Retail,RZ08,"consumption 2022 (hot, dry year)",2.32,2022
+168,Retailer B,Occupied,Dual Use,RZ02,"consumption 2022 (hot, dry year)",139.18,2022
+169,Retailer B,Occupied,Commercial - Office,RZ03,"consumption 2022 (hot, dry year)",28.42,2022
+170,Retailer B,Occupied,Commercial - Industrial,RZ03,"consumption 2022 (hot, dry year)",0.0,2022
+172,Retailer B,Occupied,Commercial - Retail,RZ01,"consumption 2022 (hot, dry year)",30.87,2022
+173,Retailer I,Occupied,Commercial - Education,RZ03,"consumption 2022 (hot, dry year)",1893.23,2022
+175,Retailer A,Occupied,Commercial - Industrial,RZ02,"consumption 2022 (hot, dry year)",45.08,2022
+176,Retailer B,Occupied,Commercial - Industrial,RZ04,"consumption 2022 (hot, dry year)",25.92,2022
+177,Retailer D,Occupied,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",23.48,2022
+178,Retailer B,Occupied,Commercial - Medical,RZ04,"consumption 2022 (hot, dry year)",99.67,2022
+179,Retailer B,Occupied,Commercial - Office,RZ03,"consumption 2022 (hot, dry year)",0.0,2022
+180,Retailer B,Occupied,Commercial - Office,RZ01,"consumption 2022 (hot, dry year)",84.47,2022
+181,Retailer A,Occupied,Commercial - Industrial,RZ02,"consumption 2022 (hot, dry year)",16.75,2022
+183,Retailer B,Occupied,Commercial - Office,RZ04,"consumption 2022 (hot, dry year)",654.62,2022
+184,Retailer F,Occupied,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",2887.06,2022
+185,Retailer D,Occupied,Parent Shell - Property Shell,RZ02,"consumption 2022 (hot, dry year)",116.36,2022
+187,Retailer B,Occupied,Commercial - Office,RZ08,"consumption 2022 (hot, dry year)",4.36,2022
+188,Retailer B,Occupied,Commercial - Retail,RZ01,"consumption 2022 (hot, dry year)",10.0,2022
+189,Retailer I,Occupied,Commercial - Emergency/Rescue Service,RZ06,"consumption 2022 (hot, dry year)",25.01,2022
+190,Retailer B,Occupied,Residential - Dwelling,RZ04,"consumption 2022 (hot, dry year)",597.3,2022
+191,Retailer B,Occupied,Residential - Dwelling,RZ02,"consumption 2022 (hot, dry year)",21.86,2022
+192,Retailer L,Occupied,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",461.39,2022
+193,Retailer B,Occupied,Commercial - Industrial,RZ08,"consumption 2022 (hot, dry year)",1078.35,2022
+194,Retailer B,Occupied,Residential - Dwelling,RZ08,"consumption 2022 (hot, dry year)",3316.01,2022
+195,Retailer B,Occupied,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",38.07,2022
+196,Retailer B,Occupied,Residential - Dwelling,RZ04,"consumption 2022 (hot, dry year)",818.35,2022
+197,Retailer B,Occupied,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",24.73,2022
+198,Retailer G,Vacant,Commercial - Retail,RZ02,"consumption 2022 (hot, dry year)",0.0,2022
+199,Retailer B,Occupied,Residential - Dwelling,RZ03,"consumption 2022 (hot, dry year)",0.0,2022
+200,Retailer B,Occupied,Commercial - Leisure,RZ05,"consumption 2022 (hot, dry year)",8.14,2022
+201,Retailer B,Occupied,Commercial - Industrial,RZ08,"consumption 2022 (hot, dry year)",70.53,2022
+202,Retailer B,Occupied,Residential - Dwelling,RZ02,"consumption 2022 (hot, dry year)",690.48,2022
+203,Retailer B,Occupied,Commercial - Retail,RZ04,"consumption 2022 (hot, dry year)",7.66,2022
+204,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ04,"consumption 2022 (hot, dry year)",641.64,2022
+205,Retailer B,Occupied,Commercial - Industrial,RZ04,"consumption 2022 (hot, dry year)",138.52,2022
+206,Retailer B,Occupied,Commercial - Retail,RZ08,"consumption 2022 (hot, dry year)",83.33,2022
+207,Retailer B,Occupied,Residential - Dwelling,RZ08,"consumption 2022 (hot, dry year)",36.67,2022
+208,Retailer A,Occupied,Commercial - Education,RZ02,"consumption 2022 (hot, dry year)",748.42,2022
+209,Retailer A,Occupied,Parent Shell - Property Shell,RZ05,"consumption 2022 (hot, dry year)",451.45,2022
+210,Retailer B,Occupied,,RZ02,"consumption 2022 (hot, dry year)",9.18,2022
+211,Retailer B,Occupied,Commercial - Retail,RZ01,"consumption 2022 (hot, dry year)",8.11,2022
+212,Retailer B,Vacant,Commercial - Retail,RZ06,"consumption 2022 (hot, dry year)",0.0,2022
+1,Retailer A,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ01,consumption 2021,117.74,2021
+2,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2021,38.33,2021
+3,Retailer B,Vacant,Commercial - Retail,RZ05,consumption 2021,0.0,2021
+4,Retailer A,Occupied,Parent Shell - Property Shell,RZ02,consumption 2021,340.76,2021
+5,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2021,21.28,2021
+7,Retailer B,Vacant,Commercial - Retail,RZ04,consumption 2021,11.54,2021
+8,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2021,4.37,2021
+9,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2021,23.74,2021
+11,Retailer D,Occupied,,RZ03,consumption 2021,11.96,2021
+12,Retailer B,Occupied,,RZ02,consumption 2021,0.0,2021
+13,Retailer E,Occupied,Residential - Residential Institution,RZ06,consumption 2021,1755.04,2021
+15,Retailer B,Occupied,Commercial - Community Services,RZ04,consumption 2021,3.91,2021
+16,Retailer B,Occupied,Residential - Dwelling,RZ02,consumption 2021,412.29,2021
+17,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2021,130.65,2021
+18,Retailer A,Vacant,Commercial - Medical,RZ08,consumption 2021,187.35,2021
+19,Retailer A,Occupied,Commercial - Community Services,RZ06,consumption 2021,35.72,2021
+20,Retailer B,Occupied,,RZ,consumption 2021,717.99,2021
+21,Retailer B,Vacant,,RZ02,consumption 2021,0.0,2021
+22,Retailer E,Occupied,,RZ04,consumption 2021,194.23,2021
+23,Retailer B,Vacant,Commercial - Industrial,RZ07,consumption 2021,0.0,2021
+24,Retailer A,Occupied,Commercial - Medical,RZ01,consumption 2021,0.0,2021
+25,Retailer F,Occupied,Commercial - Industrial,RZ04,consumption 2021,77.59,2021
+26,Retailer A,Occupied,Commercial - Retail,RZ03,consumption 2021,62.77,2021
+27,Retailer G,Occupied,Commercial - Retail,RZ07,consumption 2021,16.07,2021
+28,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2021,74.88,2021
+29,Retailer B,Vacant,,RZ03,consumption 2021,0.0,2021
+30,Retailer B,Vacant,,RZ03,consumption 2021,123.38,2021
+31,Retailer B,Vacant,Commercial - Storage Land,RZ04,consumption 2021,0.0,2021
+32,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2021,0.0,2021
+33,Retailer D,Occupied,Commercial - Retail,RZ08,consumption 2021,37.8,2021
+35,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2021,96.41,2021
+36,Retailer B,Vacant,Commercial - Retail,RZ04,consumption 2021,0.0,2021
+37,Retailer H,Occupied,Commercial - Retail,RZ03,consumption 2021,53.02,2021
+40,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2021,77.23,2021
+41,Retailer A,Occupied,Commercial - Office,RZ03,consumption 2021,8.91,2021
+42,Retailer A,Occupied,Commercial - Education,RZ02,consumption 2021,902.82,2021
+43,Retailer B,Vacant,Commercial - Industrial,RZ03,consumption 2021,0.0,2021
+44,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2021,8.18,2021
+45,Retailer B,Vacant,,RZ04,consumption 2021,0.0,2021
+47,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2021,38.08,2021
+48,Retailer B,Vacant,,RZ03,consumption 2021,0.0,2021
+49,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2021,11.88,2021
+50,Retailer B,Occupied,Land - Allotment,RZ08,consumption 2021,589.34,2021
+51,Retailer B,Occupied,Residential - Dwelling,RZ05,consumption 2021,1227.79,2021
+52,Retailer B,Occupied,Commercial - Office,RZ01,consumption 2021,368.96,2021
+54,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2021,2.23,2021
+55,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ03,consumption 2021,1942.18,2021
+56,Retailer D,Occupied,Commercial - Retail,RZ08,consumption 2021,523.97,2021
+57,Retailer B,Occupied,Commercial - Retail,RZ06,consumption 2021,0.0,2021
+58,Retailer B,Occupied,,RZ06,consumption 2021,211.94,2021
+59,Retailer A,Occupied,Commercial - Leisure,RZ02,consumption 2021,45.83,2021
+60,Retailer B,Occupied,Commercial - Office,RZ06,consumption 2021,95.6,2021
+61,Retailer A,Occupied,Commercial - Retail,RZ06,consumption 2021,7.98,2021
+63,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2021,331.2,2021
+64,Retailer D,Occupied,Commercial - Industrial,RZ07,consumption 2021,25.1,2021
+68,Retailer A,Occupied,Commercial - Retail,RZ08,consumption 2021,0.0,2021
+69,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2021,103.33,2021
+70,Retailer B,Occupied,Commercial - Agricultural,RZ02,consumption 2021,88.59,2021
+71,Retailer B,Occupied,Parent Shell - Property Shell,RZ04,consumption 2021,0.0,2021
+73,Retailer I,Occupied,Commercial - Office,RZ08,consumption 2021,29.64,2021
+74,Retailer A,Occupied,Commercial - Retail,RZ01,consumption 2021,12.33,2021
+75,Retailer D,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ03,consumption 2021,199.27,2021
+76,Retailer B,Occupied,Commercial - Office,RZ05,consumption 2021,205.99,2021
+77,Retailer B,Occupied,Commercial - Agricultural,RZ05,consumption 2021,1043.17,2021
+78,Retailer B,Occupied,Residential - Dwelling,RZ05,consumption 2021,841.59,2021
+79,Retailer A,Occupied,Commercial - Retail,RZ03,consumption 2021,28.92,2021
+80,Retailer B,Occupied,Commercial - Retail,RZ07,consumption 2021,58.7,2021
+82,Retailer B,Occupied,Commercial - Industrial,RZ05,consumption 2021,116.29,2021
+84,Retailer B,Occupied,Object of Interest - Place of Worship,RZ06,consumption 2021,14.39,2021
+85,Retailer B,Occupied,,RZ07,consumption 2021,0.0,2021
+86,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2021,8.64,2021
+87,Retailer I,Occupied,Commercial - Retail,RZ03,consumption 2021,1798.12,2021
+88,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2021,71.96,2021
+89,Retailer B,Occupied,Residential - Dwelling,RZ07,consumption 2021,4.03,2021
+90,Retailer F,Occupied,Parent Shell - Property Shell,RZ04,consumption 2021,0.0,2021
+91,Retailer B,Occupied,Object of Interest - Place of Worship,RZ04,consumption 2021,912.5,2021
+92,Retailer B,Vacant,Commercial - Industrial,RZ05,consumption 2021,570.15,2021
+93,Retailer J,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ04,consumption 2021,6202.97,2021
+94,Retailer B,Vacant,Commercial - Retail,RZ01,consumption 2021,56.93,2021
+96,Retailer A,Occupied,Commercial - Community Services,RZ03,consumption 2021,109.12,2021
+97,Retailer A,Occupied,Object of Interest - Place of Worship,RZ06,consumption 2021,23.04,2021
+99,Retailer B,Occupied,,RZ,consumption 2021,0.0,2021
+100,Retailer B,Occupied,Parent Shell - Property Shell,RZ06,consumption 2021,758.77,2021
+101,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ02,consumption 2021,244.62,2021
+102,Retailer A,Occupied,Commercial - Office,RZ01,consumption 2021,11.07,2021
+103,Retailer G,Occupied,Commercial - Retail,RZ04,consumption 2021,164.83,2021
+104,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2021,5.08,2021
+105,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2021,11.97,2021
+108,Retailer A,Occupied,,RZ06,consumption 2021,483.6,2021
+109,Retailer B,Occupied,Commercial - Community Services,RZ04,consumption 2021,50.69,2021
+110,Retailer B,Occupied,Residential - Dwelling,RZ03,consumption 2021,5790.77,2021
+111,Retailer D,Occupied,,RZ07,consumption 2021,119.68,2021
+112,Retailer B,Occupied,Object of Interest - Place of Worship,RZ05,consumption 2021,45.02,2021
+113,Retailer A,Occupied,Commercial - Retail,RZ08,consumption 2021,0.0,2021
+114,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2021,8.93,2021
+115,Retailer K,Occupied,Commercial - Retail,RZ01,consumption 2021,2546.9,2021
+117,Retailer A,Occupied,Commercial - Medical,RZ03,consumption 2021,113.62,2021
+118,Retailer A,Occupied,Commercial - Retail,RZ03,consumption 2021,90.83,2021
+119,Retailer A,Vacant,Parent Shell - Property Shell,RZ02,consumption 2021,8.47,2021
+120,Retailer B,Occupied,Commercial - Retail,RZ02,consumption 2021,82.32,2021
+121,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2021,0.0,2021
+123,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2021,0.0,2021
+124,Retailer B,Occupied,Residential - Dwelling,RZ06,consumption 2021,822.34,2021
+125,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2021,360.01,2021
+126,Retailer A,Occupied,Commercial - Office,RZ02,consumption 2021,11.97,2021
+127,Retailer G,Occupied,Parent Shell - Property Shell,RZ04,consumption 2021,1144.08,2021
+128,Retailer B,Occupied,,RZ04,consumption 2021,4973.13,2021
+130,Retailer B,Occupied,Commercial - Office,RZ01,consumption 2021,53.21,2021
+131,Retailer D,Occupied,Commercial - Retail,RZ03,consumption 2021,57.05,2021
+132,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2021,416.83,2021
+133,Retailer A,Occupied,Parent Shell - Property Shell,RZ04,consumption 2021,99.45,2021
+134,Retailer B,Occupied,Residential - Dwelling,RZ01,consumption 2021,183.54,2021
+135,Retailer B,Vacant,Parent Shell - Property Shell,RZ02,consumption 2021,60.73,2021
+138,Retailer A,Occupied,Residential - Dwelling,RZ01,consumption 2021,2691.82,2021
+139,Retailer A,Occupied,Commercial - Retail,RZ01,consumption 2021,844.23,2021
+140,Retailer A,Occupied,Commercial - Leisure,RZ01,consumption 2021,37.49,2021
+142,Retailer A,Occupied,Commercial - Retail,RZ01,consumption 2021,60.85,2021
+143,Retailer D,Occupied,Commercial - Industrial,RZ06,consumption 2021,9.03,2021
+144,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2021,225.05,2021
+146,Retailer A,Occupied,Object of Interest - Place of Worship,RZ02,consumption 2021,1.4,2021
+148,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2021,673.16,2021
+149,Retailer B,Occupied,,RZ05,consumption 2021,396.82,2021
+150,Retailer B,Occupied,Commercial - Agricultural,RZ07,consumption 2021,23.24,2021
+151,Retailer B,Occupied,,RZ04,consumption 2021,0.0,2021
+152,Retailer F,Occupied,Commercial - Education,RZ07,consumption 2021,613.82,2021
+153,Retailer B,Occupied,Commercial - Agricultural,RZ02,consumption 2021,277.99,2021
+154,Retailer B,Occupied,Commercial - Leisure,RZ02,consumption 2021,72.67,2021
+157,Retailer B,Occupied,Commercial - Leisure,RZ02,consumption 2021,983.57,2021
+159,Retailer A,Occupied,Commercial - Transport,RZ01,consumption 2021,1.24,2021
+160,Retailer C,Occupied,Parent Shell - Property Shell,RZ04,consumption 2021,708.78,2021
+161,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2021,19.06,2021
+162,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2021,324.82,2021
+163,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2021,65.43,2021
+164,Retailer D,Occupied,,RZ01,consumption 2021,0.0,2021
+165,Retailer D,Occupied,Commercial - Retail,RZ05,consumption 2021,1123.8,2021
+167,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2021,3.4,2021
+168,Retailer B,Occupied,Dual Use,RZ02,consumption 2021,157.61,2021
+169,Retailer B,Occupied,Commercial - Office,RZ03,consumption 2021,13.32,2021
+170,Retailer B,Occupied,Commercial - Industrial,RZ03,consumption 2021,0.0,2021
+172,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2021,35.3,2021
+173,Retailer I,Occupied,Commercial - Education,RZ03,consumption 2021,2023.08,2021
+175,Retailer A,Occupied,Commercial - Industrial,RZ02,consumption 2021,131.6,2021
+176,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2021,27.83,2021
+177,Retailer D,Occupied,Commercial - Retail,RZ04,consumption 2021,20.98,2021
+178,Retailer B,Occupied,Commercial - Medical,RZ04,consumption 2021,80.86,2021
+180,Retailer B,Occupied,Commercial - Office,RZ01,consumption 2021,18.64,2021
+181,Retailer A,Occupied,Commercial - Industrial,RZ02,consumption 2021,24.14,2021
+183,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2021,788.88,2021
+184,Retailer F,Occupied,Commercial - Retail,RZ04,consumption 2021,1834.93,2021
+185,Retailer D,Occupied,Parent Shell - Property Shell,RZ02,consumption 2021,102.85,2021
+187,Retailer B,Occupied,Commercial - Office,RZ08,consumption 2021,0.0,2021
+188,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2021,39.8,2021
+189,Retailer I,Occupied,Commercial - Emergency/Rescue Service,RZ06,consumption 2021,22.6,2021
+190,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2021,0.0,2021
+191,Retailer B,Occupied,Residential - Dwelling,RZ02,consumption 2021,9.39,2021
+192,Retailer L,Occupied,Commercial - Retail,RZ04,consumption 2021,476.66,2021
+193,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2021,1215.51,2021
+195,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2021,26.63,2021
+196,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2021,632.63,2021
+197,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2021,15.75,2021
+198,Retailer G,Vacant,Commercial - Retail,RZ02,consumption 2021,9.68,2021
+199,Retailer B,Occupied,Residential - Dwelling,RZ03,consumption 2021,3.39,2021
+200,Retailer B,Occupied,Commercial - Leisure,RZ05,consumption 2021,4.52,2021
+201,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2021,36.52,2021
+203,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2021,3.84,2021
+204,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ04,consumption 2021,510.8,2021
+205,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2021,138.08,2021
+206,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2021,106.73,2021
+207,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2021,49.18,2021
+208,Retailer A,Occupied,Commercial - Education,RZ02,consumption 2021,666.59,2021
+209,Retailer A,Occupied,Parent Shell - Property Shell,RZ05,consumption 2021,273.93,2021
+210,Retailer B,Occupied,,RZ02,consumption 2021,11.54,2021
+211,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2021,24.1,2021
+212,Retailer B,Vacant,Commercial - Retail,RZ06,consumption 2021,0.51,2021
+1,Retailer A,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ01,consumption 2020,8.49,2020
+2,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2020,26.88,2020
+3,Retailer B,Vacant,Commercial - Retail,RZ05,consumption 2020,0.49,2020
+4,Retailer A,Occupied,Parent Shell - Property Shell,RZ02,consumption 2020,294.53,2020
+5,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2020,30.64,2020
+7,Retailer B,Vacant,Commercial - Retail,RZ04,consumption 2020,35.11,2020
+8,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2020,0.0,2020
+9,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2020,21.47,2020
+11,Retailer D,Occupied,,RZ03,consumption 2020,51.99,2020
+12,Retailer B,Occupied,,RZ02,consumption 2020,3.25,2020
+13,Retailer E,Occupied,Residential - Residential Institution,RZ06,consumption 2020,2015.07,2020
+14,Retailer B,Vacant,Commercial - Utility,RZ08,consumption 2020,0.0,2020
+15,Retailer B,Occupied,Commercial - Community Services,RZ04,consumption 2020,-19.33,2020
+16,Retailer B,Occupied,Residential - Dwelling,RZ02,consumption 2020,2270.05,2020
+17,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2020,0.0,2020
+18,Retailer A,Vacant,Commercial - Medical,RZ08,consumption 2020,180.27,2020
+19,Retailer A,Occupied,Commercial - Community Services,RZ06,consumption 2020,31.89,2020
+20,Retailer B,Occupied,,RZ,consumption 2020,733.88,2020
+21,Retailer B,Vacant,,RZ02,consumption 2020,0.0,2020
+22,Retailer E,Occupied,,RZ04,consumption 2020,-1196.56,2020
+24,Retailer A,Occupied,Commercial - Medical,RZ01,consumption 2020,0.0,2020
+25,Retailer F,Occupied,Commercial - Industrial,RZ04,consumption 2020,619.71,2020
+27,Retailer G,Occupied,Commercial - Retail,RZ07,consumption 2020,22.21,2020
+28,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2020,26.33,2020
+29,Retailer B,Vacant,,RZ03,consumption 2020,0.0,2020
+30,Retailer B,Vacant,,RZ03,consumption 2020,0.0,2020
+31,Retailer B,Vacant,Commercial - Storage Land,RZ04,consumption 2020,0.0,2020
+32,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2020,0.0,2020
+33,Retailer D,Occupied,Commercial - Retail,RZ08,consumption 2020,16.7,2020
+35,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2020,186.85,2020
+37,Retailer H,Occupied,Commercial - Retail,RZ03,consumption 2020,3.16,2020
+40,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2020,36.05,2020
+41,Retailer A,Occupied,Commercial - Office,RZ03,consumption 2020,12.06,2020
+43,Retailer B,Vacant,Commercial - Industrial,RZ03,consumption 2020,0.0,2020
+44,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2020,12.91,2020
+45,Retailer B,Vacant,,RZ04,consumption 2020,0.0,2020
+47,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2020,45.36,2020
+48,Retailer B,Vacant,,RZ03,consumption 2020,0.0,2020
+49,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2020,11.82,2020
+50,Retailer B,Occupied,Land - Allotment,RZ08,consumption 2020,0.0,2020
+51,Retailer B,Occupied,Residential - Dwelling,RZ05,consumption 2020,1343.3,2020
+52,Retailer B,Occupied,Commercial - Office,RZ01,consumption 2020,256.77,2020
+54,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2020,0.0,2020
+55,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ03,consumption 2020,3260.96,2020
+56,Retailer D,Occupied,Commercial - Retail,RZ08,consumption 2020,364.34,2020
+57,Retailer B,Occupied,Commercial - Retail,RZ06,consumption 2020,11.89,2020
+58,Retailer B,Occupied,,RZ06,consumption 2020,214.95,2020
+59,Retailer A,Occupied,Commercial - Leisure,RZ02,consumption 2020,15.33,2020
+60,Retailer B,Occupied,Commercial - Office,RZ06,consumption 2020,85.19,2020
+61,Retailer A,Occupied,Commercial - Retail,RZ06,consumption 2020,12.94,2020
+63,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2020,353.82,2020
+68,Retailer A,Occupied,Commercial - Retail,RZ08,consumption 2020,0.0,2020
+69,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2020,32.65,2020
+70,Retailer B,Occupied,Commercial - Agricultural,RZ02,consumption 2020,62.7,2020
+71,Retailer B,Occupied,Parent Shell - Property Shell,RZ04,consumption 2020,-6.54,2020
+72,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2020,143.19,2020
+74,Retailer A,Occupied,Commercial - Retail,RZ01,consumption 2020,15.49,2020
+75,Retailer D,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ03,consumption 2020,62.8,2020
+76,Retailer B,Occupied,Commercial - Office,RZ05,consumption 2020,173.78,2020
+77,Retailer B,Occupied,Commercial - Agricultural,RZ05,consumption 2020,2073.4,2020
+78,Retailer B,Occupied,Residential - Dwelling,RZ05,consumption 2020,1048.79,2020
+79,Retailer A,Occupied,Commercial - Retail,RZ03,consumption 2020,39.54,2020
+80,Retailer B,Occupied,Commercial - Retail,RZ07,consumption 2020,11.97,2020
+82,Retailer B,Occupied,Commercial - Industrial,RZ05,consumption 2020,92.94,2020
+84,Retailer B,Occupied,Object of Interest - Place of Worship,RZ06,consumption 2020,9.61,2020
+85,Retailer B,Occupied,,RZ07,consumption 2020,0.0,2020
+87,Retailer I,Occupied,Commercial - Retail,RZ03,consumption 2020,969.63,2020
+88,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2020,82.98,2020
+89,Retailer B,Occupied,Residential - Dwelling,RZ07,consumption 2020,5.2,2020
+90,Retailer F,Occupied,Parent Shell - Property Shell,RZ04,consumption 2020,0.0,2020
+92,Retailer B,Vacant,Commercial - Industrial,RZ05,consumption 2020,256.94,2020
+93,Retailer J,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ04,consumption 2020,8096.37,2020
+94,Retailer B,Vacant,Commercial - Retail,RZ01,consumption 2020,53.53,2020
+96,Retailer A,Occupied,Commercial - Community Services,RZ03,consumption 2020,23.88,2020
+97,Retailer A,Occupied,Object of Interest - Place of Worship,RZ06,consumption 2020,31.34,2020
+99,Retailer B,Occupied,,RZ,consumption 2020,0.0,2020
+100,Retailer B,Occupied,Parent Shell - Property Shell,RZ06,consumption 2020,945.9,2020
+101,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ02,consumption 2020,183.51,2020
+102,Retailer A,Occupied,Commercial - Office,RZ01,consumption 2020,38.96,2020
+103,Retailer G,Occupied,Commercial - Retail,RZ04,consumption 2020,168.77,2020
+104,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2020,0.0,2020
+105,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2020,9.98,2020
+106,Retailer B,Vacant,Residential - Dwelling,RZ03,consumption 2020,0.0,2020
+107,Retailer B,Occupied,,RZ06,consumption 2020,10.4,2020
+108,Retailer A,Occupied,,RZ06,consumption 2020,297.69,2020
+109,Retailer B,Occupied,Commercial - Community Services,RZ04,consumption 2020,11.77,2020
+110,Retailer B,Occupied,Residential - Dwelling,RZ03,consumption 2020,5959.93,2020
+111,Retailer D,Occupied,,RZ07,consumption 2020,105.97,2020
+112,Retailer B,Occupied,Object of Interest - Place of Worship,RZ05,consumption 2020,62.33,2020
+113,Retailer A,Occupied,Commercial - Retail,RZ08,consumption 2020,0.0,2020
+114,Retailer B,Occupied,Commercial - Retail,RZ03,consumption 2020,8.34,2020
+115,Retailer K,Occupied,Commercial - Retail,RZ01,consumption 2020,2425.13,2020
+116,Retailer A,Occupied,Commercial - Office,RZ02,consumption 2020,34.15,2020
+117,Retailer A,Occupied,Commercial - Medical,RZ03,consumption 2020,116.71,2020
+118,Retailer A,Occupied,Commercial - Retail,RZ03,consumption 2020,73.49,2020
+119,Retailer A,Vacant,Parent Shell - Property Shell,RZ02,consumption 2020,-6.4,2020
+120,Retailer B,Occupied,Commercial - Retail,RZ02,consumption 2020,78.84,2020
+121,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2020,0.0,2020
+123,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2020,1029.95,2020
+125,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2020,278.98,2020
+126,Retailer A,Occupied,Commercial - Office,RZ02,consumption 2020,11.77,2020
+127,Retailer G,Occupied,Parent Shell - Property Shell,RZ04,consumption 2020,845.08,2020
+128,Retailer B,Occupied,,RZ04,consumption 2020,3896.43,2020
+129,Retailer A,Vacant,Commercial - Office,RZ08,consumption 2020,22.61,2020
+130,Retailer B,Occupied,Commercial - Office,RZ01,consumption 2020,35.32,2020
+131,Retailer D,Occupied,Commercial - Retail,RZ03,consumption 2020,0.0,2020
+132,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2020,417.74,2020
+133,Retailer A,Occupied,Parent Shell - Property Shell,RZ04,consumption 2020,558.01,2020
+134,Retailer B,Occupied,Residential - Dwelling,RZ01,consumption 2020,153.01,2020
+135,Retailer B,Vacant,Parent Shell - Property Shell,RZ02,consumption 2020,53.98,2020
+138,Retailer A,Occupied,Residential - Dwelling,RZ01,consumption 2020,1327.04,2020
+142,Retailer A,Occupied,Commercial - Retail,RZ01,consumption 2020,0.0,2020
+147,Retailer B,Occupied,Commercial - Leisure,RZ02,consumption 2020,111.62,2020
+148,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2020,501.36,2020
+149,Retailer B,Occupied,,RZ05,consumption 2020,83.79,2020
+150,Retailer B,Occupied,Commercial - Agricultural,RZ07,consumption 2020,11.56,2020
+151,Retailer B,Occupied,,RZ04,consumption 2020,0.0,2020
+152,Retailer F,Occupied,Commercial - Education,RZ07,consumption 2020,440.32,2020
+153,Retailer B,Occupied,Commercial - Agricultural,RZ02,consumption 2020,288.0,2020
+157,Retailer B,Occupied,Commercial - Leisure,RZ02,consumption 2020,1983.17,2020
+159,Retailer A,Occupied,Commercial - Transport,RZ01,consumption 2020,0.0,2020
+160,Retailer C,Occupied,Parent Shell - Property Shell,RZ04,consumption 2020,547.46,2020
+161,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2020,10.15,2020
+162,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2020,149.55,2020
+163,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2020,36.38,2020
+164,Retailer D,Occupied,,RZ01,consumption 2020,7.47,2020
+165,Retailer D,Occupied,Commercial - Retail,RZ05,consumption 2020,351.93,2020
+167,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2020,4.94,2020
+169,Retailer B,Occupied,Commercial - Office,RZ03,consumption 2020,7.14,2020
+170,Retailer B,Occupied,Commercial - Industrial,RZ03,consumption 2020,0.0,2020
+172,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2020,0.0,2020
+173,Retailer I,Occupied,Commercial - Education,RZ03,consumption 2020,1358.17,2020
+175,Retailer A,Occupied,Commercial - Industrial,RZ02,consumption 2020,74.92,2020
+176,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2020,31.76,2020
+177,Retailer D,Occupied,Commercial - Retail,RZ04,consumption 2020,10.75,2020
+178,Retailer B,Occupied,Commercial - Medical,RZ04,consumption 2020,73.38,2020
+179,Retailer B,Occupied,Commercial - Office,RZ03,consumption 2020,0.0,2020
+180,Retailer B,Occupied,Commercial - Office,RZ01,consumption 2020,85.66,2020
+181,Retailer A,Occupied,Commercial - Industrial,RZ02,consumption 2020,0.0,2020
+183,Retailer B,Occupied,Commercial - Office,RZ04,consumption 2020,778.4,2020
+184,Retailer F,Occupied,Commercial - Retail,RZ04,consumption 2020,1440.7,2020
+187,Retailer B,Occupied,Commercial - Office,RZ08,consumption 2020,0.0,2020
+188,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2020,3.48,2020
+189,Retailer I,Occupied,Commercial - Emergency/Rescue Service,RZ06,consumption 2020,26.62,2020
+190,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2020,5.95,2020
+191,Retailer B,Occupied,Residential - Dwelling,RZ02,consumption 2020,6.8,2020
+192,Retailer L,Occupied,Commercial - Retail,RZ04,consumption 2020,344.97,2020
+193,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2020,887.65,2020
+195,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2020,24.29,2020
+196,Retailer B,Occupied,Residential - Dwelling,RZ04,consumption 2020,603.0,2020
+197,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2020,25.17,2020
+198,Retailer G,Vacant,Commercial - Retail,RZ02,consumption 2020,25.47,2020
+199,Retailer B,Occupied,Residential - Dwelling,RZ03,consumption 2020,9.79,2020
+200,Retailer B,Occupied,Commercial - Leisure,RZ05,consumption 2020,1.92,2020
+201,Retailer B,Occupied,Commercial - Industrial,RZ08,consumption 2020,0.0,2020
+202,Retailer B,Occupied,Residential - Dwelling,RZ02,consumption 2020,1038.34,2020
+203,Retailer B,Occupied,Commercial - Retail,RZ04,consumption 2020,6.28,2020
+204,Retailer B,Occupied,Commercial - Hotel/Motel/Boarding/Guest House,RZ04,consumption 2020,385.25,2020
+205,Retailer B,Occupied,Commercial - Industrial,RZ04,consumption 2020,146.55,2020
+206,Retailer B,Occupied,Commercial - Retail,RZ08,consumption 2020,27.47,2020
+207,Retailer B,Occupied,Residential - Dwelling,RZ08,consumption 2020,79.15,2020
+208,Retailer A,Occupied,Commercial - Education,RZ02,consumption 2020,574.76,2020
+209,Retailer A,Occupied,Parent Shell - Property Shell,RZ05,consumption 2020,131.67,2020
+210,Retailer B,Occupied,,RZ02,consumption 2020,37.4,2020
+211,Retailer B,Occupied,Commercial - Retail,RZ01,consumption 2020,11.97,2020
