@@ -243,12 +243,14 @@ with tab2:
         occ = dff.groupby(["occupancy_status","year"])["consumption"].sum().reset_index()
         vac = occ[occ["occupancy_status"].str.contains("vacant", case=False, na=False)]
         if not vac.empty:
+            vac["year"] = vac["year"].astype(str)
             fig = px.line(vac, x="year", y="consumption", markers=True,
                           title="Vacant Consumption by Year",
                           color_discrete_sequence=[SE_TEAL])
             st.plotly_chart(fig, use_container_width=True)
 
             total_by_year = dff.groupby("year")["consumption"].sum().rename("total").reset_index()
+            total_by_year["year"] = total_by_year["year"].astype(str)
             share = vac.merge(total_by_year, on="year")
             share["vacant_share_%"] = 100 * share["consumption"] / share["total"]
             st.dataframe(share.sort_values("year"))
@@ -290,6 +292,7 @@ with tab4:
     st.subheader("Usage by Resource Zone")
     if "resource zone" in dff.columns:
         byz = dff.groupby(["resource zone","year"])["consumption"].sum().reset_index()
+        byz["year"] = byz["year"].astype(str)
         fig = px.area(byz, x="year", y="consumption", color="resource zone",
                       title="Yearly Consumption by Resource Zone",
                       color_discrete_sequence=px.colors.sequential.Teal)
