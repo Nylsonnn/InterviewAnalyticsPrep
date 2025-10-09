@@ -15,6 +15,31 @@ SE_LightBlue = "#22E5F7"
 
 st.set_page_config(page_title="Water Consumption Analytics | SE Water", layout="wide", page_icon="💧")
 
+# ---- Colour helpers (distinct + colour-blind friendly) ----
+import plotly.express as px
+
+# Okabe–Ito (colour-blind safe) + some extras for larger category sets
+OKABE_ITO = [
+    "#86D36F", "#E69F00", "#56B4E9", "#009E73",
+    "#F0E442", "#0072B2", "#D55E00", "#CC79A7", "#999999"
+]
+EXTRA = px.colors.qualitative.Set3 + px.colors.qualitative.D3 + px.colors.qualitative.Bold
+MASTER_PALETTE = OKABE_ITO + EXTRA  # big, high-contrast palette
+
+def build_color_map(values, palette=MASTER_PALETTE):
+    """Return a stable dict {value: color} covering all category values."""
+    uniq = list(dict.fromkeys(values))                 # preserve order, de-dupe
+    need = len(uniq)
+    base = (palette * ((need // len(palette)) + 1))[:need]
+    return {k: c for k, c in zip(uniq, base)}
+
+def category_args(df, col, order=None):
+    """Convenience: consistent order + colours for a column."""
+    order = order or list(dict.fromkeys(df[col].dropna()))
+    cmap = build_color_map(order)
+    return dict(category_orders={col: order}, color_discrete_map=cmap)
+
+
 import plotly.io as pio
 
 pio.templates["sewater"] = pio.templates["plotly_white"]
@@ -121,7 +146,7 @@ if LOGO_PATH.exists():
 
 # Header title (no logo here so it stays readable on dark bg)
 st.markdown(
-    "<h1 style='margin-top:0'>Water Consumption Analytics (2020–2023)</h1>",
+    "<h1 style='margin-top:0'>Water Consumption Analytics (2020–2024)</h1>",
     unsafe_allow_html=True,
 )
 st.caption(
@@ -217,39 +242,48 @@ tab1, tab2, tab3, tab4, tab5 = st.tabs([
 # ---- Business Types ----
 with tab1:
     st.subheader("Year-on-Year Water Use by Business Type")
-    if "business_type" in dff.columns:
-        byb = dff.groupby(["business_type","year"], dropna=False)["consumption"].sum().reset_index()
+    if "business_type" in df.columns:
+        byb = df.groupby(["business_type", "year"], dropna=False)["consumption"].sum().reset_index()
+
+        args = category_args(byb, "business_type")  # 🔹 this builds consistent colours
+
         fig = px.bar(
             byb, x="year", y="consumption", color="business_type",
             title="Consumption by Business Type (Yearly)", barmode="stack",
-            color_discrete_sequence=[SE_TEAL, SE_NAVY, "#6DC2CA", "#004E66", "#0093A1", "#00516B"]
+            **args  # 🔹 pass in consistent colour + order
         )
         st.plotly_chart(fig, use_container_width=True)
 
         latest = max(year_sel) if len(year_sel) else int(df["year"].max())
-        top_latest = byb[byb["year"]==latest].sort_values("consumption", ascending=False)
-        fig2 = px.bar(top_latest.head(15), x="business_type", y="consumption",
-                      title=f"Top Business Types in {latest}", text_auto=True,
-                      color_discrete_sequence=[SE_TEAL])
+        top_latest = byb[byb["year"] == latest].sort_values("consumption", ascending=False)
+
+        fig2 = px.bar(
+            top_latest.head(15), x="business_type", y="consumption",
+            title=f"Top Business Types in {latest}", text_auto=True,
+            **args  # 🔹 use same colours here too
+        )
         fig2.update_layout(xaxis_title=None)
         st.plotly_chart(fig2, use_container_width=True)
     else:
         st.info("No `business_type` column detected.")
 
+
 # ---- Vacant Trend ----
 with tab2:
     st.subheader("Vacant Property Consumption")
-    if "occupancy_status" in dff.columns:
-        occ = dff.groupby(["occupancy_status","year"])["consumption"].sum().reset_index()
+    if "occupancy_status" in df.columns:
+        occ = df.groupby(["occupancy_status", "year"])["consumption"].sum().reset_index()
         vac = occ[occ["occupancy_status"].str.contains("vacant", case=False, na=False)]
         if not vac.empty:
             vac["year"] = vac["year"].astype(str)
-            fig = px.line(vac, x="year", y="consumption", markers=True,
-                          title="Vacant Consumption by Year",
-                          color_discrete_sequence=[SE_TEAL])
+            fig = px.line(
+                vac, x="year", y="consumption", markers=True,
+                title="Vacant Consumption by Year",
+                color_discrete_sequence=MASTER_PALETTE
+            )
             st.plotly_chart(fig, use_container_width=True)
 
-            total_by_year = dff.groupby("year")["consumption"].sum().rename("total").reset_index()
+            total_by_year = df.groupby("year")["consumption"].sum().rename("total").reset_index()
             total_by_year["year"] = total_by_year["year"].astype(str)
             share = vac.merge(total_by_year, on="year")
             share["vacant_share_%"] = 100 * share["consumption"] / share["total"]
@@ -259,54 +293,68 @@ with tab2:
     else:
         st.info("No `occupancy_status` column detected.")
 
+
+
+
 # ---- 2022 Anomalies ----
 with tab3:
     st.subheader("2022 Anomalies vs Baseline")
     if "business_type" in df.columns and 2022 in df["year"].unique():
-        base = df.groupby(["business_type","year"])["consumption"].sum().reset_index()
+        base = df.groupby(["business_type", "year"])["consumption"].sum().reset_index()
         pvt = base.pivot(index="business_type", columns="year", values="consumption").fillna(0)
         others = [y for y in pvt.columns if y != 2022]
         if others:
             pvt["baseline"] = pvt[others].mean(axis=1).replace(0, np.nan)
             pvt["pct_change_2022_vs_baseline"] = (pvt[2022] - pvt["baseline"]) / pvt["baseline"] * 100
             out = pvt.sort_values("pct_change_2022_vs_baseline", ascending=False).reset_index()
+
             figp = px.bar(
-    out.head(10),
-    x="business_type",
-    y="pct_change_2022_vs_baseline",
-    title="Largest Increases in 2022 (vs baseline)",
-    color_discrete_sequence=[SE_TEAL],
-    labels={
-        "business_type": "Business Type",
-        "pct_change_2022_vs_baseline": "% Change from Baseline (2022)"
-    }
-)
-            st.plotly_chart(figp, use_container_width=True)
+                out.head(10),
+                x="business_type",
+                y="pct_change_2022_vs_baseline",
+                title="Largest Increases in 2022 (vs baseline)",
+                color_discrete_sequence=MASTER_PALETTE,
+                labels={
+                    "business_type": "Business Type",
+                    "pct_change_2022_vs_baseline": "% Change from Baseline (2022)"
+                }
+            )
+            st.plotly_chart(figp, use_container_width=True, key="anoms_main_bar")
         else:
             st.info("Need at least one non-2022 year to form a baseline.")
     else:
         st.info("No 2022 in data or `business_type` missing.")
 
+
 # ---- Resource Zones ----
 with tab4:
     st.subheader("Usage by Resource Zone")
-    if "resource zone" in dff.columns:
-        byz = dff.groupby(["resource zone","year"])["consumption"].sum().reset_index()
+    if "resource zone" in df.columns:
+        byz = df.groupby(["resource zone", "year"])["consumption"].sum().reset_index()
         byz["year"] = byz["year"].astype(str)
-        fig = px.area(byz, x="year", y="consumption", color="resource zone",
-                      title="Yearly Consumption by Resource Zone",
-                      color_discrete_sequence=px.colors.sequential.Teal)
-        st.plotly_chart(fig, use_container_width=True)
+
+        fig = px.area(
+            byz, x="year", y="consumption", color="resource zone",
+            title="Yearly Consumption by Resource Zone",
+            color_discrete_sequence=MASTER_PALETTE
+        )
+        st.plotly_chart(fig, use_container_width=True, key="rz_area")
 
         latest = max(year_sel) if len(year_sel) else int(df["year"].max())
-        latest_rank = byz[byz["year"]==latest].sort_values("consumption", ascending=False)
-        fig2 = px.bar(latest_rank, x="resource zone", y="consumption",
-                      title=f"Resource Zones Ranked ({latest})", text_auto=True,
-                      color_discrete_sequence=[SE_TEAL])
+        latest_rank = byz[byz["year"] == str(latest)].sort_values("consumption", ascending=False)
+
+        fig2 = px.bar(
+            latest_rank, x="resource zone", y="consumption",
+            title=f"Resource Zones Ranked ({latest})",
+            text_auto=True,
+            color_discrete_sequence=MASTER_PALETTE
+        )
         fig2.update_layout(xaxis_title=None)
-        st.plotly_chart(fig2, use_container_width=True)
+        st.plotly_chart(fig2, use_container_width=True, key="rz_rank")
     else:
         st.info("No `resource zone` column detected.")
+
+        
 
 # ---- Data Explorer ----
 with tab5:
