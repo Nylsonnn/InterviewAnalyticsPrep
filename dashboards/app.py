@@ -18,7 +18,6 @@ st.set_page_config(page_title="Water Consumption Analytics | SE Water", layout="
 # ---- Colour helpers (distinct + colour-blind friendly) ----
 import plotly.express as px
 
-# Okabe–Ito (colour-blind safe) + some extras for larger category sets
 OKABE_ITO = [
     "#86D36F", "#E69F00", "#56B4E9", "#009E73",
     "#F0E442", "#0072B2", "#D55E00", "#CC79A7", "#999999"
@@ -144,7 +143,7 @@ if LOGO_PATH.exists():
         st.image(str(LOGO_PATH), use_container_width=True)
         st.markdown("</div>", unsafe_allow_html=True)
 
-# Header title (no logo here so it stays readable on dark bg)
+#Main header
 st.markdown(
     "<h1 style='margin-top:0'>Water Consumption Analytics (2020–2024)</h1>",
     unsafe_allow_html=True,
@@ -245,7 +244,7 @@ with tab1:
     if "business_type" in df.columns:
         byb = df.groupby(["business_type", "year"], dropna=False)["consumption"].sum().reset_index()
 
-        args = category_args(byb, "business_type")  # 🔹 this builds consistent colours
+        args = category_args(byb, "business_type")  
 
         fig = px.bar(
             byb, x="year", y="consumption", color="business_type",
