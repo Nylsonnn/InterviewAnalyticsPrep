@@ -14,6 +14,9 @@ The analysis and dashboard directly answer these four key questions based on dum
 3. **During 2022 (a particularly hot and dry year), which industries showed significantly higher water usage compared to other years?**  
 4. **Which resource zone uses the most water overall?**
 
+![Water Consumption Dashboard](Dashboard/Dashboard)
+
+
 ---
 
 ## Setup
